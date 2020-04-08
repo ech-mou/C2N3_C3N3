@@ -3,45 +3,60 @@
   margin: 0;
   padding: 0; }
 
-a {
-  text-decoration: none; }
+/****************************************header**********************************/
+.barre {
+  width: 100%;
+  background-image: url("../image/Merged bar-33.png"); }
 
-header {
+.barre1 {
+  width: 100%;
+  background-color: #D0E5F0; }
+
+.barre1 ul li:nth-child(3) a {
+  border: 1px solid black;
+  border-radius: 10px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 30px;
-  background: url("../image/Merged bar-33.png"); }
-  header .logo {
-    margin-right: auto; }
-  header .nav1 {
-    list-style: none;
-    font-size: 20px;
-    font-family: sans-serif; }
-    header .nav1 ul {
-      margin-right: 20px; }
-      header .nav1 ul li {
-        display: inline-block;
-        padding: 0 25px; }
-        header .nav1 ul li a {
-          color: black; }
-          header .nav1 ul li a .co-Acceil {
-            color: blue; }
-      header .nav1 ul .img {
-        position: relative;
-        right: 7%;
-        width: 4%; }
-      header .nav1 ul .menu__button {
-        background-color: transparent;
-        border: 2px solid #1078AD;
-        border-radius: 10px;
-        padding: 2%  7%;
-        font-size: 110%; }
+  padding-left: 10px;
+  font-size: 1.3vw;
+  font-weight: 600;
+  font-family: 'cairo'; }
 
+.barre1 ul li:nth-child(3) a img {
+  padding: 10px; }
+
+.barre1 ul li:nth-child(3) a:hover {
+  background-color: #F4CF1B; }
+
+.barre1 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: baseline;
+  width: 10%;
+  height: auto;
+  list-style: none;
+  float: right;
+  font-size: 1.3vw;
+  margin-right: 20%;
+  margin-top: 1.5%; }
+  .barre1 ul .clr {
+    color: blue; }
+
+ul li {
+  margin-right: 35%;
+  align-items: center; }
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600; }
+
+/**************************************************conseil*********************************/
 .conseil {
   text-align: center;
   font-size: 17px;
-  height: 130px;
+  height: 150px;
   background-color: #FFC83D;
   z-index: 1;
   animation: slide 2s ease; }
@@ -56,11 +71,12 @@ header {
 
 .conseil h4 {
   text-transform: uppercase;
-  color: #000; }
+  color: #000;
+  padding-top: 1%; }
 
 .conseil p {
-  margin-top: 10px;
-  color: #2647a3; }
+  color: #2647a3;
+  padding-top: 1%; }
 
 .corona {
   display: flex;
@@ -257,12 +273,13 @@ footer {
   background-color: transparent;
   border: 2px solid #1078AD;
   border-radius: 10px;
-  padding: 2% 7%; }
+  padding: 2% 7%;
+  margin-left: -40%; }
 
 .imge {
   position: relative;
-  right: 7%;
-  width: 4%; }
+  top: 1%;
+  right: 7%; }
 
 .footer__menu ul {
   margin-top: 20px; }
