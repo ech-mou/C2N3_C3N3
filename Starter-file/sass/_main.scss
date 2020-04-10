@@ -1,37 +1,21 @@
 $colorbar:#F4CF1B;
 
+
 *{
   margin: 0;
   padding: 0;
 }
 /****************************************header**********************************/
 .barre {
-  width: 100%;
-  background-image: url("../image/Merged bar-33.png");
-}
-.barre1 {
-  width: 100%;
   
-  background-color: #D0E5F0;
-}
-
-.barre1 ul li:nth-child(3) a {
-  border: 1px solid black;
-  border-radius: 10px;
-  display: flex;
-  padding-left: 10px;
-  font-size: 1.3vw;
-  font-weight: 600;
-  font-family: 'cairo';
-}
-.barre1 ul li:nth-child(3) a img {
-  padding: 10px;
-}
-
-.barre1 ul li:nth-child(3) a:hover {
-  background-color: #F4CF1B;
-}
-.barre1 ul {
+  background-image: url("../image/Merged bar-33.png");
+     .barre1 {
+      width: 100%;
+      background-color: #D0E5F0;
+      .barre1logo{
+        margin-left: 20px;
+      }
+    ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -47,21 +31,41 @@ $colorbar:#F4CF1B;
   .clr{
     color: blue;
 }
-}
-ul li {
-  margin-right: 35%;
-  align-items: center;
-}
-ul li a {
-  text-decoration: none;
-  color: black;
+li:nth-child(3) a {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 10px;
+  font-size: 1.3vw;
   font-weight: 600;
+  font-family: 'cairo';
+
 }
+       li:nth-child(3) a img {
+       padding: 10px;
+     }
+
+       li:nth-child(3) a:hover {
+       background-color: #F4CF1B;
+      }
+      li {
+       margin-right: 35%;
+       align-items: center;
+        }
+        li a {
+       text-decoration: none;
+        color: black;
+       font-weight: 600;
+       }
+}
+}
+}
+
 /**************************************************conseil*********************************/
 .conseil{
   text-align: center;
   font-size: 17px;
-  height: 150px;
+  height: 140px;
   background-color: #FFC83D;
   z-index: 1;
   animation: slide 2s ease;
@@ -84,8 +88,9 @@ ul li a {
 .conseil p{
   color: #2647a3;
   padding-top: 1%;
+  line-height: 14px;
 }
-
+/*********************** la premier section******************************/
 .corona{
   display: flex;
   justify-content: space-between;
@@ -183,25 +188,33 @@ ul li a {
   width: 600px;
   margin: 30px 0px;
   text-align: center;
-  line-height: 75px;
+  // line-height: 75px;
+  font-weight: 900;
+    font-size: 24pt;
 }
 /********************************   secyion**********************/
 .recomandation {
   background-color: #1078AD; 
-  height: 500px;}
-  .recomandation__titre {
-    color: #FFFFFF;
-    margin: 2% 3%;
-    text-align: start; }
-    .recomandation__titre--color {
+  height: 500px;
     
-      margin-top: 2%;
+     &__titre {
+       color: #FFFFFF;
+       margin: 2% 3%;
+       text-align: start; 
+            
+           &--color {
+            margin: 2% 3%;
+            text-align: start; 
+            
   }
-  .recomandation__titre--position {
-    text-align: center;
-    color: #D0E5F0;
-    padding-top: 1em;
+           &--position {
+            text-align: center;
+            color: #D0E5F0;
+            padding-top: 1em;
      }
+  }
+
+}
 
 .appelle {
   display: flex;
@@ -309,7 +322,7 @@ height: 350px;}
 .footer__li {
   list-style: none;
   font-size: 4vh;
-  margin-left: -9%;
+  margin-left: -45%;
   padding: 20px; }
   .footer__li a {
     text-decoration: none; }

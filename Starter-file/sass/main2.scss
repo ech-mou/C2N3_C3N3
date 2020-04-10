@@ -1,0 +1,133 @@
+$colorp:#1078AD;
+
+.genéral2{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .genéral2 .sym2 h1{
+    text-align: center;
+    color: #127EAA;
+  }
+  .grid-container2 {
+    margin-top: 3em;
+   display: flex;
+    flex-wrap: wrap; 
+  }
+  .grid-container2 .img2 {
+    font-weight: bold;
+    width: 420px;
+    margin: 30px 0px;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+    // line-height: 75px;
+    .mrgn{
+        margin-top: 40px;
+    }
+    p{
+        color: $colorp;
+    }
+  }
+
+/********************************************** petit conseil****************************/
+
+.parag3{
+    font-weight: bold;
+    // width: 420px;
+    margin: 30px 0px;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+    p{
+        margin-top: 2%;
+        color: $colorp;
+        line-height: 30px;
+    }
+}
+/*************************************section4*****************************************/
+#in{
+    padding-top: 1em;
+    
+}
+.info{
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color:#D0E5F0;  
+    // text-align: center;
+    width: 100%;
+   
+    .text{
+        
+        padding-top: 2em;
+        font-family: 'Cairo';
+        width: 410px;
+
+        h2{
+            
+            line-height: 2.5em;
+            font-size: 2em;
+            color: rgb(77, 146, 224);   
+        }
+        p{
+            color: rgb(6, 99, 187);
+            font-size: 1.5em;
+            font-weight: 400;
+            
+        }
+    }
+           .btn1{
+               width: 300px;
+               margin: 26% 26%;
+           }
+        
+
+    a{
+        // line-height: 5em;
+        background-color: #1078ad;
+        width: 23%;
+        margin-top: 3%;
+        padding: 5% 9%;
+        font-size: 1.4rem;
+        // font-weight: 500;
+        border-radius: .2em;
+        border: darkblue;
+        cursor: pointer;
+        color: white;
+        // font-family: Verdana, Geneva, Tahoma, sans-serif;
+        // margin-bottom: 3%;
+        text-decoration: none;
+    
+    }
+}
+/***********************************info2**********************************************/
+.genéral3{
+    text-align: center;
+    margin: 60px 0;
+  }
+  .genéral3 .sym3 h1{
+    text-align: center;
+    color: #127EAA;
+  }
+.grid-container3 {
+    margin-top: 3em;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; 
+  }
+  .grid-container3 .img3 {
+    font-weight: bold;
+    // width: 600px;
+    margin: 30px 0px;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 26px;
+    // line-height: 75px;
+    .mrgn2{
+        margin-top: -140px;
+    }
+    p{
+        color: $colorp;
+    }
+  }

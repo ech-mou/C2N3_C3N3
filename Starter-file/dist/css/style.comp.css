@@ -5,58 +5,52 @@
 
 /****************************************header**********************************/
 .barre {
-  width: 100%;
   background-image: url("../image/Merged bar-33.png"); }
-
-.barre1 {
-  width: 100%;
-  background-color: #D0E5F0; }
-
-.barre1 ul li:nth-child(3) a {
-  border: 1px solid black;
-  border-radius: 10px;
-  display: flex;
-  padding-left: 10px;
-  font-size: 1.3vw;
-  font-weight: 600;
-  font-family: 'cairo'; }
-
-.barre1 ul li:nth-child(3) a img {
-  padding: 10px; }
-
-.barre1 ul li:nth-child(3) a:hover {
-  background-color: #F4CF1B; }
-
-.barre1 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: baseline;
-  width: 10%;
-  height: auto;
-  list-style: none;
-  float: right;
-  font-size: 1.3vw;
-  margin-right: 20%;
-  margin-top: 1.5%; }
-  .barre1 ul .clr {
-    color: blue; }
-
-ul li {
-  margin-right: 35%;
-  align-items: center; }
-
-ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600; }
+  .barre .barre1 {
+    width: 100%;
+    background-color: #D0E5F0; }
+    .barre .barre1 .barre1logo {
+      margin-left: 20px; }
+    .barre .barre1 ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: baseline;
+      width: 10%;
+      height: auto;
+      list-style: none;
+      float: right;
+      font-size: 1.3vw;
+      margin-right: 20%;
+      margin-top: 1.5%; }
+      .barre .barre1 ul .clr {
+        color: blue; }
+      .barre .barre1 ul li:nth-child(3) a {
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        padding-left: 10px;
+        font-size: 1.3vw;
+        font-weight: 600;
+        font-family: 'cairo'; }
+      .barre .barre1 ul li:nth-child(3) a img {
+        padding: 10px; }
+      .barre .barre1 ul li:nth-child(3) a:hover {
+        background-color: #F4CF1B; }
+      .barre .barre1 ul li {
+        margin-right: 35%;
+        align-items: center; }
+      .barre .barre1 ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600; }
 
 /**************************************************conseil*********************************/
 .conseil {
   text-align: center;
   font-size: 17px;
-  height: 150px;
+  height: 140px;
   background-color: #FFC83D;
   z-index: 1;
   animation: slide 2s ease; }
@@ -76,8 +70,10 @@ ul li a {
 
 .conseil p {
   color: #2647a3;
-  padding-top: 1%; }
+  padding-top: 1%;
+  line-height: 14px; }
 
+/*********************** la premier section******************************/
 .corona {
   display: flex;
   justify-content: space-between;
@@ -164,25 +160,24 @@ ul li a {
   width: 600px;
   margin: 30px 0px;
   text-align: center;
-  line-height: 75px; }
+  font-weight: 900;
+  font-size: 24pt; }
 
 /********************************   secyion**********************/
 .recomandation {
   background-color: #1078AD;
   height: 500px; }
-
-.recomandation__titre {
-  color: #FFFFFF;
-  margin: 2% 3%;
-  text-align: start; }
-
-.recomandation__titre--color {
-  margin-top: 2%; }
-
-.recomandation__titre--position {
-  text-align: center;
-  color: #D0E5F0;
-  padding-top: 1em; }
+  .recomandation__titre {
+    color: #FFFFFF;
+    margin: 2% 3%;
+    text-align: start; }
+    .recomandation__titre--color {
+      margin: 2% 3%;
+      text-align: start; }
+    .recomandation__titre--position {
+      text-align: center;
+      color: #D0E5F0;
+      padding-top: 1em; }
 
 .appelle {
   display: flex;
@@ -287,7 +282,7 @@ footer {
 .footer__li {
   list-style: none;
   font-size: 4vh;
-  margin-left: -9%;
+  margin-left: -45%;
   padding: 20px; }
 
 .footer__li a {
@@ -332,3 +327,104 @@ footer {
   height: 5%;
   width: 100%;
   border-radius: 0px 10px 0px 10px; }
+
+.genéral2 {
+  text-align: center;
+  margin-top: 60px; }
+
+.genéral2 .sym2 h1 {
+  text-align: center;
+  color: #127EAA; }
+
+.grid-container2 {
+  margin-top: 3em;
+  display: flex;
+  flex-wrap: wrap; }
+
+.grid-container2 .img2 {
+  font-weight: bold;
+  width: 420px;
+  margin: 30px 0px;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 20px; }
+  .grid-container2 .img2 .mrgn {
+    margin-top: 40px; }
+  .grid-container2 .img2 p {
+    color: #1078AD; }
+
+/********************************************** petit conseil****************************/
+.parag3 {
+  font-weight: bold;
+  margin: 30px 0px;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 20px; }
+  .parag3 p {
+    margin-top: 2%;
+    color: #1078AD;
+    line-height: 30px; }
+
+/*************************************section4*****************************************/
+#in {
+  padding-top: 1em; }
+
+.info {
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #D0E5F0;
+  width: 100%; }
+  .info .text {
+    padding-top: 2em;
+    font-family: 'Cairo';
+    width: 410px; }
+    .info .text h2 {
+      line-height: 2.5em;
+      font-size: 2em;
+      color: #4d92e0; }
+    .info .text p {
+      color: #0663bb;
+      font-size: 1.5em;
+      font-weight: 400; }
+  .info .btn1 {
+    width: 300px;
+    margin: 26% 26%; }
+  .info a {
+    background-color: #1078ad;
+    width: 23%;
+    margin-top: 3%;
+    padding: 5% 9%;
+    font-size: 1.4rem;
+    border-radius: .2em;
+    border: darkblue;
+    cursor: pointer;
+    color: white;
+    text-decoration: none; }
+
+/***********************************info2**********************************************/
+.genéral3 {
+  text-align: center;
+  margin: 60px 0; }
+
+.genéral3 .sym3 h1 {
+  text-align: center;
+  color: #127EAA; }
+
+.grid-container3 {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+
+.grid-container3 .img3 {
+  font-weight: bold;
+  margin: 30px 0px;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 26px; }
+  .grid-container3 .img3 .mrgn2 {
+    margin-top: -140px; }
+  .grid-container3 .img3 p {
+    color: #1078AD; }
