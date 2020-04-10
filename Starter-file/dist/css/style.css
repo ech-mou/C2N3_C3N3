@@ -373,13 +373,12 @@ footer {
   height: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
   background-color: #D0E5F0;
-  width: 100%; }
+  text-align: center;
+  justify-items: center;
+  align-items: center; }
   .info .text {
-    padding-top: 2em;
-    font-family: 'Cairo';
-    width: 410px; }
+    font-family: 'Cairo'; }
     .info .text h2 {
       line-height: 2.5em;
       font-size: 2em;
@@ -389,8 +388,7 @@ footer {
       font-size: 1.5em;
       font-weight: 400; }
   .info .btn1 {
-    width: 300px;
-    margin: 26% 26%; }
+    width: 300px; }
   .info a {
     background-color: #1078ad;
     width: 23%;
@@ -425,6 +423,6 @@ footer {
   margin-top: 1em;
   font-size: 26px; }
   .grid-container3 .img3 .mrgn2 {
-    margin-top: 40px; }
+    margin-top: -140px; }
   .grid-container3 .img3 p {
     color: #1078AD; }
