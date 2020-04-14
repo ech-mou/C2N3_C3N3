@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>test javascript</title>
+    <script>
+        function Note(){
+         var note = document.getElementById("note").value;
+        if(note<=7)
+         document.write("Hideux");
+        else if(note<=10)
+        document.write("Moche");
+        else if(note<=15)
+        document.write("Nice");
+        else if(note<=20)
+        document.write("GG");
+        else
+        document.write("BUG");   
+        }
+        
+            
+            </script>
+</head>
+<body>
+    
+            <input type="text" id="note"/>
+            <button onclick=Note()>click</button>
+  </body>
+
+</html>
